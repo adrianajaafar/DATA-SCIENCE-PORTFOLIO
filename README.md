@@ -101,9 +101,14 @@ A neural network model was built and trained to predict the emotion of comments.
 
 ### 1.   Sentiment Analysis
 
-**- Average Polarity:** The overall sentiment of the comments was analyzed, revealing a slightly negative tendency, indicating concerns about AI's impact on job security.
+- **Average Polarity:** 0.082
+The average polarity score suggests a slightly positive sentiment overall across the             analyzed comments.
 
-**- Average Subjectivity:** The analysis indicated that the comments were moderately subjective, reflecting personal opinions and experiences.
+- **Average Subjectivity:** 0.385
+The average subjectivity score indicates that the comments tend to be more objective             rather than subjective in nature.
+
+- **Conclusion:** Overall positive sentiment
+Based on the average polarity score, the sentiment analysis concludes that the overall           sentiment expressed in the comments leans towards positivity.
 
 ### 2.   Emotion Analysis
 
@@ -113,26 +118,80 @@ A neural network model was built and trained to predict the emotion of comments.
 
 ### 3.   Model Performance
 
-**- Accuracy:** The neural network model achieved an **accuracy of around 85%** on the test data.
+**Accuracy:** 41.81%
+The accuracy of the emotion detection model on the test data is 41.81%. This metric indicates the overall correctness of the model's predictions compared to the actual labels.
 
-**- Confusion Matrix:** The matrix showed the model's performance in **accurately** classifying each emotion, with higher accuracy for more common emotions like fear and sadness.
+**Classification Report**
+The classification report provides insights into the precision, recall, and F1-score for each emotion category:
 
+- **Precision:** Indicates the proportion of correctly identified instances among the predicted instances for each emotion. For example, the precision for 'fear' is 0.57, suggesting that when the model predicts 'fear', it is correct 57% of the time.
+
+- **Recall:** Indicates the proportion of correctly identified instances among the actual instances for each emotion. For instance, the recall for 'neutral' is 0.78, meaning the model correctly identifies 78% of all actual 'neutral' instances.
+
+- **F1-score:** The weighted average of precision and recall. For instance, 'neutral' has an F1-score of 0.64, indicating a good balance between precision and recall for this emotion.
+
+
+**Confusion Matrix:** The confusion matrix provides a more granular view of the model's performance by showing the number of correct and incorrect predictions for each emotion class. Here's a detailed breakdown:
+```bash
+[[ 0  0  0  3  6  3  2]  # anger
+ [ 0  0  0  0  1  0  0]  # disgust
+ [ 1  0  4  3  8  1  1]  # fear
+ [ 1  0  1  3  8  3  7]  # joy
+ [ 2  0  1  6 53  0  6]  # neutral
+ [ 1  0  0  0  9  1  6]  # sadness
+ [ 1  0  1  3 13  5 13]] # surprise
+```
+ 
 ## CONCLUSION
 
-- A significant portion of Reddit users express fear and sadness regarding AI and job security, reflecting concerns about potential job displacement due to technological advancements.
-- Sentiments observed in the comments generally lean towards negativity, indicating a widespread apprehension about AI's impact on employment stability.
-- Addressing these fears through informed public discourse and policy-making is crucial to mitigate anxieties and promote societal acceptance of AI technologies.
-- The trained neural network model accurately predicts emotions in new comments, enhancing our ability to monitor and understand public sentiment on AI and job security.
-- This project illustrates the efficacy of integrating web scraping, NLP, and machine learning to derive actionable insights from social media data.
-- These insights can inform decision-making and strategic planning, aiding in navigating the societal implications of technological progress effectively.
+The analysis revealed several key insights about the sentiment and emotion surrounding AI and job security based on Reddit comments. Here's a summary:
 
-## FUTURE WORK
+1. **Overall Sentiment:**
+
+- The average polarity score of 0.082 suggests a slightly positive sentiment overall. Despite concerns about job security, users tend to express a mildly positive outlook towards AI.
+  
+2. **Emotion Distribution:**
+
+- The most common emotion expressed is 'neutral' (39.66%), indicating a balanced or indifferent stance on the topic.
+  
+- 'Surprise' (15.93%) and 'sadness' (13.67%) are also significant, reflecting unexpected reactions and concerns about AI and job security.
+  
+- Emotions such as 'joy' (11.30%), 'fear' (9.60%), and 'anger' (9.49%) highlight the mixed feelings of users, ranging from positive aspects to anxiety and frustration.
+  
+- 'Disgust' is the least common emotion (0.34%).
+  
+3. **Model Performance:**
+
+- The neural network model achieved an accuracy of 41.81%, with the best performance in predicting 'neutral' emotions.
+  
+- The classification report and confusion matrix indicate areas for improvement, particularly in distinguishing between similar emotions such as 'joy' and 'surprise'.
+  
+4. **Practical Application:**
+
+- The trained model can predict emotions in new comments, providing a tool for monitoring public sentiment on AI and job security.
+  
+- This capability can inform decision-making, strategic planning, and public discourse by highlighting prevailing concerns and positive reactions.
+  
+5. **Actionable Insights:**
+
+- The analysis shows a significant portion of Reddit users express fear and sadness about AI's impact on job security. Addressing these fears through public dialogue and policy-making is crucial.
+  
+- The combination of web scraping, NLP, and machine learning demonstrated in this project showcases the potential to extract valuable insights from social media data, aiding in understanding societal impacts of technological advancements.
+  
+In conclusion, this project highlights the power of advanced data analytics to uncover deep insights from social media discussions, which can be pivotal for stakeholders in making informed decisions regarding AI and its implications for the workforce.
+
+## Recommendation
 Future improvements to this project could include:
 
 - Expanding the dataset to include more subreddits and posts for a broader analysis.
-- Enhancing the emotion detection model with additional training data.
-- Implementing more advanced sentiment analysis techniques.
-- Creating a real-time dashboard to visualize sentiment and emotion trends over time.
 
-By continuously refining these methods, we can gain deeper insights into public sentiment and emotional responses to AI and its impact on job security.
+- Ensure a more balanced distribution of emotions to avoid bias towards more frequent emotions like 'neutral'.
+  
+-  Utilize advanced embedding techniques like BERT or GPT to capture the context of comments more accurately. These models can understand the nuances and complexities of human language better than traditional methods.\
+ 
+- Implement cross-validation to ensure the model's performance is consistent across different subsets of the data, leading to more reliable results.
+  
+-  Implement a pipeline for regular updates to the model with new data, ensuring it stays relevant and accurate over time.
+
+By continuously refining these methods, it significantly enhance the robustness, accuracy, and applicability of your data modeling and analysis, leading to more insightful and actionable results..
 
