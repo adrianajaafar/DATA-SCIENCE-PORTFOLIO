@@ -33,6 +33,6 @@ This project encompasses two primary tasks:
 
 | Parameter name | Description | How get it| Example of the value |
 | --- | --- | --- | --- |
-| `reddit_id` | The Client ID generated from the apps page | [Official guide](https://github.com/reddit-archive/reddit/wiki/OAuth2#authorization-implicit-grant-flow) | 50oK80pF8ac3Cn |
-| `reddit_secret` | The secret generated from the apps page | Copy the value as showed [here](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started) | 9KEUOE7pi8dsjs9507asdeurowGCcgi|
-| `reddit_username` | The reddit account name| The name you use for log in | pistoSniffer |
+| `reddit_id` | The Client ID generated from the apps page | [Official guide](https://github.com/reddit-archive/reddit/wiki/OAuth2#authorization-implicit-grant-flow) | fYowxtbWbDueM9q_qXLP_g |
+| `reddit_secret` | The secret generated from the apps page | Copy the value as showed [here](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started) | IfEpaUgcf1DUDfYyb0q0id4C_nSRIg|
+| `reddit_username` | The reddit account name| The name you use for log in | No-Delivery-80883 |
