@@ -25,7 +25,14 @@ This project encompasses two primary tasks:
 
 ### Installation
 
-Install the required Python packages using pip:
-```bash
-pip install praw pandas matplotlib seaborn nltk transformers textblob scikit-learn tensorflow joblib
+### :information_source: Where I can get the reddit parameters?
 
+- Parameters indicated with `<...>` on the previous script
+- Official [Reddit guide](https://github.com/reddit-archive/reddit/wiki/OAuth2)
+- TLDR: read this [stack overflow](https://stackoverflow.com/a/42304034)
+
+| Parameter name | Description | How get it| Example of the value |
+| --- | --- | --- | --- |
+| `reddit_id` | The Client ID generated from the apps page | [Official guide](https://github.com/reddit-archive/reddit/wiki/OAuth2#authorization-implicit-grant-flow) | 50oK80pF8ac3Cn |
+| `reddit_secret` | The secret generated from the apps page | Copy the value as showed [here](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started) | 9KEUOE7pi8dsjs9507asdeurowGCcgi|
+| `reddit_username` | The reddit account name| The name you use for log in | pistoSniffer |
