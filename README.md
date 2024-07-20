@@ -1,4 +1,4 @@
-# Data-Science-Portfolio
+# DATA SCIENCE PORTFOLIO
 # PROJECT 1: Reddit Comment Analysis and Emotion Detection 
 
 ## OVERVIEW
@@ -11,13 +11,13 @@
 - To develop a model that can accurately predict the sentiment and emotion of Reddit comments related to AI and job security.
 - To understand the overall public sentiment and specific emotional responses to the perceived impact of AI on employment.
 
-## Getting Started
+## GETTING STARTED
 
 ### This project encompasses two primary tasks:
 1. **Reddit Comment Scraper**: Scraping comments from specific Reddit posts and storing them in an Excel file.
 2. **Emotion Detection and Sentiment Analysis**: Analyzing the emotions and sentiments expressed in the scraped Reddit comments using NLP and neural networks.
 
-## Prerequisite
+## PREREQUISITE
 
 - Python 3.x
 - PRAW
@@ -31,7 +31,7 @@
 - TensorFlow
 - Joblib
 
-## Installation
+## INSTALLATION
 Install the required Python packages using pip:
 ```bash
 pip install praw pandas matplotlib seaborn nltk transformers textblob scikit-learn tensorflow joblib
@@ -46,6 +46,7 @@ Using the PRAW (Python Reddit API Wrapper) library, scraped comments from three 
 3. Is AI causing a massive wave of unemployment now? https://www.reddit.com/r/OpenAI/comments/1afv431/is_ai_causing_a_massive_wave_of_unemployment_now/
    
 All comments were compiled into a combined dataset for further analysis.
+
 
 ### :information_source: Where I can get the reddit parameters?
 
@@ -102,13 +103,16 @@ A neural network model was built and trained to predict the emotion of comments.
 ### 1.   Sentiment Analysis
 
 - **Average Polarity:** 0.082
-The average polarity score suggests a slightly positive sentiment overall across the             analyzed comments.
+
+  The average polarity score suggests a slightly positive sentiment overall across the analyzed comments.
 
 - **Average Subjectivity:** 0.385
-The average subjectivity score indicates that the comments tend to be more objective             rather than subjective in nature.
+
+  The average subjectivity score indicates that the comments tend to be more objective rather than subjective in nature.
 
 - **Conclusion:** Overall positive sentiment
-Based on the average polarity score, the sentiment analysis concludes that the overall           sentiment expressed in the comments leans towards positivity.
+
+   Based on the average polarity score, the sentiment analysis concludes that the overall sentiment expressed in the comments leans towards positivity.
 
 ### 2.   Emotion Analysis
 
@@ -119,7 +123,7 @@ Based on the average polarity score, the sentiment analysis concludes that the o
 ### 3.   Model Performance
 
 **Accuracy:** 41.81%
-The accuracy of the emotion detection model on the test data is 41.81%. This metric indicates the overall correctness of the model's predictions compared to the actual labels.
+- The accuracy of the emotion detection model on the test data is 41.81%. This metric indicates the overall correctness of the model's predictions compared to the actual labels.
 
 **Classification Report**
 The classification report provides insights into the precision, recall, and F1-score for each emotion category:
@@ -146,11 +150,11 @@ The classification report provides insights into the precision, recall, and F1-s
 
 The analysis revealed several key insights about the sentiment and emotion surrounding AI and job security based on Reddit comments. Here's a summary:
 
-1. **Overall Sentiment:**
+### 1.   Overall Sentiment:
 
 - The average polarity score of 0.082 suggests a slightly positive sentiment overall. Despite concerns about job security, users tend to express a mildly positive outlook towards AI.
   
-2. **Emotion Distribution:**
+### 2.   Emotion Distribution:
 
 - The most common emotion expressed is 'neutral' (39.66%), indicating a balanced or indifferent stance on the topic.
   
@@ -159,20 +163,20 @@ The analysis revealed several key insights about the sentiment and emotion surro
 - Emotions such as 'joy' (11.30%), 'fear' (9.60%), and 'anger' (9.49%) highlight the mixed feelings of users, ranging from positive aspects to anxiety and frustration.
   
 - 'Disgust' is the least common emotion (0.34%).
-  
-3. **Model Performance:**
+
+### 3. Model Performance:
 
 - The neural network model achieved an accuracy of 41.81%, with the best performance in predicting 'neutral' emotions.
   
 - The classification report and confusion matrix indicate areas for improvement, particularly in distinguishing between similar emotions such as 'joy' and 'surprise'.
-  
-4. **Practical Application:**
+
+### 4.   Practical Application:**
 
 - The trained model can predict emotions in new comments, providing a tool for monitoring public sentiment on AI and job security.
   
 - This capability can inform decision-making, strategic planning, and public discourse by highlighting prevailing concerns and positive reactions.
   
-5. **Actionable Insights:**
+### 5.   Actionable Insights:
 
 - The analysis shows a significant portion of Reddit users express fear and sadness about AI's impact on job security. Addressing these fears through public dialogue and policy-making is crucial.
   
@@ -180,7 +184,7 @@ The analysis revealed several key insights about the sentiment and emotion surro
   
 In conclusion, this project highlights the power of advanced data analytics to uncover deep insights from social media discussions, which can be pivotal for stakeholders in making informed decisions regarding AI and its implications for the workforce.
 
-## Recommendation
+## RECOMMENDATION
 Future improvements to this project could include:
 
 - Expanding the dataset to include more subreddits and posts for a broader analysis.
