@@ -137,13 +137,13 @@ The classification report provides insights into the precision, recall, and F1-s
 
 **Confusion Matrix:** The confusion matrix provides a more granular view of the model's performance by showing the number of correct and incorrect predictions for each emotion class. Here's a detailed breakdown:
 ```bash
-[[ 0  0  0  3  6  3  2]  # anger
+ [ 0  0  0  3  6  3  2]  # anger
  [ 0  0  0  0  1  0  0]  # disgust
  [ 1  0  4  3  8  1  1]  # fear
  [ 1  0  1  3  8  3  7]  # joy
  [ 2  0  1  6 53  0  6]  # neutral
  [ 1  0  0  0  9  1  6]  # sadness
- [ 1  0  1  3 13  5 13]] # surprise
+ [ 1  0  1  3 13  5 13] # surprise
 ```
  
 ## CONCLUSION
