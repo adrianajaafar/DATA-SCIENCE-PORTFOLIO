@@ -1,4 +1,4 @@
-# DATA SCIENCE PORTFOLIO
+# PORTFOLIO PROJECT
 # PROJECT 1: Reddit Comment Analysis and Emotion Detection 
 
 ## OVERVIEW
@@ -195,7 +195,112 @@ Future improvements to this project could include:
  
 - Implement cross-validation to ensure the model's performance is consistent across different subsets of the data, leading to more reliable results.
   
--  Implement a pipeline for regular updates to the model with new data, ensuring it stays relevant and accurate over time.
+- Implement a pipeline for regular updates to the model with new data, ensuring it stays relevant and accurate over time.
 
 By continuously refining these methods, it significantly enhance the robustness, accuracy, and applicability of your data modeling and analysis, leading to more insightful and actionable results..
+
+# PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)
+
+## OVERVIEW
+This project aims to develop a reliable machine learning model to predict loan approval. Various machine learning algorithms were tested and compared to identify the most accurate model. The best-performing model was then used to predict loan approvals on a test dataset.
+
+## OBJECTIVE
+The primary objective is to build and evaluate multiple machine learning models to find the most accurate one for predicting loan approval status.
+
+## GETTING STARTED
+### This project encompasses thes tasks:
+1. **Data Exploration and Preprocessing:**
+   - Load and inspect the dataset.
+   - Handle missing values appropriately.
+   - Encode categorical variables into numerical values.
+
+2. **Feature Engineering and Selection:**
+   - Generate and select features that enhance the predictive power of the models.
+
+3. **Model Development:**
+   - Train and evaluate four machine learning models: Decision Tree, Random Forest, XGBoost, and Logistic Regression.
+   - Compare the accuracy of these models to identify the best-performing one.
+
+4. **Model Evaluation:**
+   - Use appropriate metrics to evaluate the performance of each model.
+   - Select the model with the highest accuracy for final predictions.
+
+5. **Prediction and Conclusion:**
+   - Use the best model to predict loan approvals on the test dataset.
+   - Provide insights and recommendations based on the results.
+
+## PREREQUISITE
+- Python 3.x
+- Jupyter Notebook
+
+## INSTALLATION
+To run this project, you need to install the following libraries:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
+## DATA SOURCE
+The dataset used in this project is from Kaggle: [Loan Prediction Problem Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+
+## DATA PROCESSING
+
+**1.   Loading the Data:**
+
+- The training and testing datasets were loaded and inspected for initial understanding.
+
+**2.   Handling Missing Values:**
+
+- Missing values in numerical features were filled with the mean.
+- Missing values in categorical features were filled with the mode.
+
+**3.   Data Transformation:**
+
+- Categorical features were encoded to numerical values.
+- Features were scaled to ensure they contribute equally to the model.
+
+**4.   Visualizations:**
+
+- **Distribution of target variable (Loan Status):**
+  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20004221.png)
+- **Distribution of numerical featuresz:**
+  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20004834.png)
+  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20005341.png)
+- **Distribution of categorical features:**
+   ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20010024.png)
+- **Correlation Matrix of the variables:**
+  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20012006.png)
+
+## DATA MODELLING
+Four machine learning models were trained and evaluated:
+- **Decision Tree**
+- **Random Forest**
+- **XGBoost**
+- **Logistic Regression**
+
+### Accuracy Comparison:
+
+| Model             | Accuracy      |
+|-------------------|--------------|
+| Decision Tree     | 0.699187     |
+| Random Forest     | 0.772358     |
+| XGBoost           | 0.764228     |
+| Logistic Regression| 0.788618     |
+
+## RESULT
+- **Logistic Regression** had the highest accuracy at **0.788618** and was selected as the **best model** for predicting loan approvals on the test dataset.
+
+## Predicting Loan Status on Test Data Using Best Model
+- The **Logistic Regression model** was used to predict loan statuses on the **test dataset**. Below is the distribution of the predicted loan statuses:
+
+![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20012111.png)
+
+## CONCLUSION
+
+- Logistic Regression outperformed the other models with an accuracy of 0.788618.
+- The model was able to predict the loan status with reasonable accuracy, indicating that it can be a reliable tool for loan approval prediction.
+
+## RECOMMENDATION
+
+- Further tuning of the Logistic Regression model and testing additional models could potentially improve accuracy.
+- Consider incorporating more features or external data sources to enrich the dataset.
+- Regularly update and retrain the model to maintain its predictive performance with new data.
 
