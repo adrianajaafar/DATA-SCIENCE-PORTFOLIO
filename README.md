@@ -262,7 +262,8 @@ The dataset used in this project is from Kaggle: [Loan Prediction Problem Datase
 - **Distribution of target variable (Loan Status):**
   ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20004221.png)
 - **Distribution of numerical featuresz:**
-  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20004834.png)
+  ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20005319.png)
+  
   ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20005341.png)
 - **Distribution of categorical features:**
    ![Alt text](https://github.com/adrianajaafar/image/blob/main/Screenshot%202024-07-29%20010024.png)
