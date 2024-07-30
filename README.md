@@ -51,7 +51,7 @@ This repository is licensed under the MIT License, making it open for use and mo
 
 
 ## TABLE OF CONTENTS
-- [PROJECT 1: Reddit Comment Analysis and Emotion Detection](#project-1-reddit-comment-analysis-and-emotion-detection)
+- [PROJECT 1: Reddit Comment Analysis and Emotion Detection](#project-1-reddit-comment-analysis-and-emotion-detection-1)
   - [Overview](#overview)
   - [Getting Started](#getting-started)
   - [Prerequisite](#prerequisite)
@@ -64,7 +64,7 @@ This repository is licensed under the MIT License, making it open for use and mo
   - [Recommendation](#recommendation)
  
 
-- [PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)](#project-2-optimizing-loan-approval-predictions-a-comprehensive-machine-learning-analysis)
+- [PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)](#project-2-optimizing-loan-approval-predictions-a-comprehensive-machine-learning-analysis-2)
   - [Overview](#overview-1)
   - [Getting Started](#getting-started-1)
   - [Prerequisite](#prerequisite-1)
