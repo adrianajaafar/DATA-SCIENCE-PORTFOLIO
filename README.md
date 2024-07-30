@@ -26,28 +26,9 @@ This repository demonstrate a range of data science and machine learning skills,
 - **Code Examples:** Access full coding scripts for reproducibility and learning.
 - **Visualizations:** Explore insightful visualizations that aid in understanding data patterns and model performance.
 
-#### Prerequisites and Installation:
+#### Tools:
 
 Both projects are implemented in Python, and require the installation of several libraries. Detailed instructions for setting up the environment and installing necessary packages are provided within each project's README section.
-
-
-#### How to Use This Repository:
-
-- **Clone the Repository:** 
-  ```bash
-  git clone https://github.com/yourusername/portfolio-project.git
-  ```
-- **Navigate to the Project Directory:**
-  ```bash
-  cd portfolio-project
-  ```
-- **Follow the Setup Instructions:** Detailed in each project's README.
-
-#### Contributing:
-Contributions to enhance this repository are welcome! If you have suggestions for improvements or additional projects, feel free to fork the repository and submit a pull request.
-
-#### License:
-This repository is licensed under the MIT License, making it open for use and modification by anyone.
 
 
 ## TABLE OF CONTENTS
@@ -76,6 +57,9 @@ This repository is licensed under the MIT License, making it open for use and mo
   - [Conclusion](#conclusion-1)
   - [Recommendation](#recommendation-1)
 
+- [HOW TO USE THIS REPOSITORY](#how-to-use-this-repository)
+- [CONTRIBUTING](#Contributing)
+- [LISCENCE](#License)
 
 # PROJECT 1: Reddit Comment Analysis and Emotion Detection 
 
@@ -381,3 +365,20 @@ Four machine learning models were trained and evaluated:
 - Consider incorporating more features or external data sources to enrich the dataset.
 - Regularly update and retrain the model to maintain its predictive performance with new data.
 
+## HOW TO USE THIS REPOSITORY
+
+- **Clone the Repository:** 
+  ```bash
+  git clone https://github.com/yourusername/portfolio-project.git
+  ```
+- **Navigate to the Project Directory:**
+  ```bash
+  cd portfolio-project
+  ```
+- **Follow the Setup Instructions:** Detailed in each project's README.
+
+## CONTRIBUTING
+Contributions to enhance this repository are welcome! If you have suggestions for improvements or additional projects, feel free to fork the repository and submit a pull request.
+
+## LISCENCE
+This repository is licensed under the MIT License, making it open for use and modification by anyone.
