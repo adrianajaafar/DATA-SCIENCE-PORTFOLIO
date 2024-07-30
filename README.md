@@ -1,4 +1,34 @@
 # PORTFOLIO PROJECT
+
+## Table of Contents
+- [PROJECT 1: Reddit Comment Analysis and Emotion Detection](#project-1-reddit-comment-analysis-and-emotion-detection)
+  - [Overview](#overview)
+  - [Objective](#objective)
+  - [Getting Started](#getting-started)
+  - [Prerequisite](#prerequisite)
+  - [Installation](#installation)
+  - [Data Collection](#data-collection)
+  - [Data Processing](#data-processing)
+  - [Analysis](#analysis)
+  - [Results](#results)
+  - [Conclusion](#conclusion)
+  - [Recommendation](#recommendation)
+ 
+
+- [PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)](#project-2-optimizing-loan-approval-predictions-a-comprehensive-machine-learning-analysis)
+  - [Overview](#overview-1)
+  - [Objective](#objective-1)
+  - [Getting Started](#getting-started-1)
+  - [Prerequisite](#prerequisite-1)
+  - [Installation](#installation-1)
+  - [Data Source](#data-source)
+  - [Data Processing](#data-processing-1)
+  - [Data Modelling](#data-modelling)
+  - [Result](#result)
+  - [Conclusion](#conclusion-1)
+  - [Recommendation](#recommendation-1)
+
+
 # PROJECT 1: Reddit Comment Analysis and Emotion Detection 
 
 ## OVERVIEW
