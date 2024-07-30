@@ -45,7 +45,7 @@ Both projects are implemented in Python, and require the installation of several
   - [Recommendation](#recommendation)
  
 
-- [PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)](#project-2-optimizing-loan-approval-predictions-a-comprehensive-machine-learning-analysis-2)
+- [PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)](#project-2-optimizing-loan-approval-predictions-a-comprehensive-machine-learning-analysis-1)
   - [Overview](#overview-1)
   - [Getting Started](#getting-started-1)
   - [Prerequisite](#prerequisite-1)
