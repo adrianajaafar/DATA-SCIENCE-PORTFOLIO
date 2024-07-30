@@ -41,9 +41,9 @@ pip install praw pandas matplotlib seaborn nltk transformers textblob scikit-lea
 ### Reddit Comment Scrapper
 Using the PRAW (Python Reddit API Wrapper) library, scraped comments from three specific posts related to AI and job security:
 
-1. Are you guys worried that AI will take your job? https://www.reddit.com/r/WFH/comments/17i2fhi/are_you_guys_worried_that_ai_will_take_your_job/
-2. Is anyone concerned about the impact AI might have on jobs? https://www.reddit.com/r/UKJobs/comments/19ebmm1/is_anyone_concerned_about_the_impact_ai_might/
-3. Is AI causing a massive wave of unemployment now? https://www.reddit.com/r/OpenAI/comments/1afv431/is_ai_causing_a_massive_wave_of_unemployment_now/
+1. [Are you guys worried that AI will take your job?](https://www.reddit.com/r/WFH/comments/17i2fhi/are_you_guys_worried_that_ai_will_take_your_job/)
+2. [Is anyone concerned about the impact AI might have on jobs?](https://www.reddit.com/r/UKJobs/comments/19ebmm1/is_anyone_concerned_about_the_impact_ai_might/)
+3. [Is AI causing a massive wave of unemployment now?](https://www.reddit.com/r/OpenAI/comments/1afv431/is_ai_causing_a_massive_wave_of_unemployment_now/)
    
 All comments were compiled into a combined dataset for further analysis.
 
@@ -143,7 +143,7 @@ The classification report provides insights into the precision, recall, and F1-s
  [ 1  0  1  3  8  3  7]  # joy
  [ 2  0  1  6 53  0  6]  # neutral
  [ 1  0  0  0  9  1  6]  # sadness
- [ 1  0  1  3 13  5 13] # surprise
+ [ 1  0  1  3 13  5 13]  # surprise
 ```
  
 ## CONCLUSION
