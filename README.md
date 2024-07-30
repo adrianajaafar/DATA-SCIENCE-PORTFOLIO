@@ -1,4 +1,4 @@
-# PORTFOLIO PROJECT
+# DATA SCIENCE PORTFOLIO PROJECT
 
 ## About This Repository
 
@@ -78,6 +78,9 @@ This repository is licensed under the MIT License, making it open for use and mo
 
 
 # PROJECT 1: Reddit Comment Analysis and Emotion Detection 
+
+- #### [Click here to see the full coding script.](https://github.com/adrianajaafar/Porfolio-Project/blob/main/PROJECT%201%20-%20Reddit%20Comment%20Analysis%20and%20Emotion%20Detection.ipynb)
+
 
 ## OVERVIEW
 - Aims to analyze sentiment and emotion in Reddit comments from three subreddits related to AI and job security.
@@ -274,6 +277,8 @@ Future improvements to this project could include:
 By continuously refining these methods, it significantly enhance the robustness, accuracy, and applicability of your data modeling and analysis, leading to more insightful and actionable results..
 
 # PROJECT 2: Optimizing Loan Approval Predictions (A Comprehensive Machine Learning Analysis)
+
+- #### [Click here to see the full coding script.](https://github.com/adrianajaafar/Porfolio-Project/blob/main/PROJECT%202%20-%20Optimizing%20Loan%20Approval%20Predictions%20with%20A%20Comprehensive%20Machine%20Learning%20Analysis.ipynb)
 
 ## OVERVIEW
 This project aims to develop a reliable machine learning model to predict loan approval. Various machine learning algorithms were tested and compared to identify the most accurate model. The best-performing model was then used to predict loan approvals on a test dataset.
